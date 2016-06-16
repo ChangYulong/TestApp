@@ -12,9 +12,13 @@
 		5E780B681D12546600CF3D51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E780B671D12546600CF3D51 /* ViewController.m */; };
 		5E780B6B1D12546600CF3D51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E780B691D12546600CF3D51 /* Main.storyboard */; };
 		5E780B6D1D12546600CF3D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E780B6C1D12546600CF3D51 /* Assets.xcassets */; };
-		5E780B701D12546600CF3D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E780B6E1D12546600CF3D51 /* LaunchScreen.storyboard */; };
 		5E780B7B1D12546600CF3D51 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E780B7A1D12546600CF3D51 /* TestTests.m */; };
 		5E780B861D12546600CF3D51 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E780B851D12546600CF3D51 /* TestUITests.m */; };
+		5E780B941D12848600CF3D51 /* tingyunApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E780B931D12848600CF3D51 /* tingyunApp.framework */; };
+		5E780B961D1284D800CF3D51 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E780B951D1284D800CF3D51 /* CoreTelephony.framework */; };
+		5E780B981D1284E000CF3D51 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E780B971D1284E000CF3D51 /* Security.framework */; };
+		5E780B9A1D1284E900CF3D51 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E780B991D1284E900CF3D51 /* SystemConfiguration.framework */; };
+		5E780B9C1D1284F100CF3D51 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E780B9B1D1284F100CF3D51 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +47,6 @@
 		5E780B671D12546600CF3D51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5E780B6A1D12546600CF3D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E780B6C1D12546600CF3D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5E780B6F1D12546600CF3D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E780B711D12546600CF3D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E780B761D12546600CF3D51 /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E780B7A1D12546600CF3D51 /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
@@ -51,6 +54,12 @@
 		5E780B811D12546600CF3D51 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E780B851D12546600CF3D51 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		5E780B871D12546600CF3D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E780B931D12848600CF3D51 /* tingyunApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tingyunApp.framework; sourceTree = "<group>"; };
+		5E780B951D1284D800CF3D51 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5E780B971D1284E000CF3D51 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5E780B991D1284E900CF3D51 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5E780B9B1D1284F100CF3D51 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5E780B9D1D12854900CF3D51 /* Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E780B9C1D1284F100CF3D51 /* libz.tbd in Frameworks */,
+				5E780B9A1D1284E900CF3D51 /* SystemConfiguration.framework in Frameworks */,
+				5E780B981D1284E000CF3D51 /* Security.framework in Frameworks */,
+				5E780B961D1284D800CF3D51 /* CoreTelephony.framework in Frameworks */,
+				5E780B941D12848600CF3D51 /* tingyunApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,7 @@
 		5E780B541D12546600CF3D51 = {
 			isa = PBXGroup;
 			children = (
+				5E780B9E1D12874200CF3D51 /* framework */,
 				5E780B5F1D12546600CF3D51 /* Test */,
 				5E780B791D12546600CF3D51 /* TestTests */,
 				5E780B841D12546600CF3D51 /* TestUITests */,
@@ -101,13 +116,14 @@
 		5E780B5F1D12546600CF3D51 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				5E780B931D12848600CF3D51 /* tingyunApp.framework */,
 				5E780B631D12546600CF3D51 /* AppDelegate.h */,
 				5E780B641D12546600CF3D51 /* AppDelegate.m */,
 				5E780B661D12546600CF3D51 /* ViewController.h */,
 				5E780B671D12546600CF3D51 /* ViewController.m */,
+				5E780B9D1D12854900CF3D51 /* Test-Prefix.pch */,
 				5E780B691D12546600CF3D51 /* Main.storyboard */,
 				5E780B6C1D12546600CF3D51 /* Assets.xcassets */,
-				5E780B6E1D12546600CF3D51 /* LaunchScreen.storyboard */,
 				5E780B711D12546600CF3D51 /* Info.plist */,
 				5E780B601D12546600CF3D51 /* Supporting Files */,
 			);
@@ -138,6 +154,17 @@
 				5E780B871D12546600CF3D51 /* Info.plist */,
 			);
 			path = TestUITests;
+			sourceTree = "<group>";
+		};
+		5E780B9E1D12874200CF3D51 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				5E780B9B1D1284F100CF3D51 /* libz.tbd */,
+				5E780B991D1284E900CF3D51 /* SystemConfiguration.framework */,
+				5E780B971D1284E000CF3D51 /* Security.framework */,
+				5E780B951D1284D800CF3D51 /* CoreTelephony.framework */,
+			);
+			name = framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +270,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E780B701D12546600CF3D51 /* LaunchScreen.storyboard in Resources */,
 				5E780B6D1D12546600CF3D51 /* Assets.xcassets in Resources */,
 				5E780B6B1D12546600CF3D51 /* Main.storyboard in Resources */,
 			);
@@ -314,14 +340,6 @@
 				5E780B6A1D12546600CF3D51 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5E780B6E1D12546600CF3D51 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E780B6F1D12546600CF3D51 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,6 +431,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Test",
+				);
+				GCC_PREFIX_HEADER = "Test/Test-Prefix.pch";
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shanghaikedu.Test;
@@ -424,6 +448,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Test",
+				);
+				GCC_PREFIX_HEADER = "Test/Test-Prefix.pch";
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shanghaikedu.Test;
